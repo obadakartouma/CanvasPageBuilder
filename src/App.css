@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.App {
+  width: 100%;
+  height: 100%;
+  font-family: Poppins;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_2 {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.nav {
+  padding: 20px;
+}
+
+.h_title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.h_button {
+  font-family: Poppins;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+
+.h_button:hover {
+  transform: scale(1.2);
+  background-color: #bea602;
+  font-weight: bold;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  width: 70px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0px 5px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+}
+
+.editor {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.view {
+  width: 50%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.eHeaderContainer {
+  display: flex;
+  margin: 10px;
+  width: 500px;
+  flex-direction: column;
+}
+
+.eInputHeaderUrl {
+  border: 1px solid rgba(150, 150, 150, 0.692);
+  padding: 10px;
+  border-radius: 3px;
+  width: 30em;
+}
+
+.eInputCourseStructur {
+  border: 1px solid rgba(150, 150, 150, 0.692);
+  padding: 10px;
+  border-radius: 3px;
+  width: 30em;
+  height: 10em;
+  font-family: Oswald;
+  width: 100%;
+}
+
+.eInputLearningObjectivesItemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.eInputLearningObjectives {
+  border: 1px solid rgba(150, 150, 150, 0.692);
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
+  margin: 8px 0px;
+}
+
+.trashIcon {
+  margin-left: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.trashIcon:hover {
+  transform: scale(1.2);
+  fill: rgb(0, 0, 0);
+}
+
+.itemsButton {
+  border: none;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.courseWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.courseItemWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.InputWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Oswald;
+  margin: 10px;
+  justify-content: center;
+}
+
+.eInputCN {
+  border: 1px solid rgba(150, 150, 150, 0.692);
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px 0px;
+  width: 85%;
+}
+
+.timeInput {
+  width: 30px;
+}
+
+.titleInput {
+  width: 250px;
+}
+
+.chapterButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  margin: 10px 0px;
+  border-radius: 5px;
+  width: 120px;
+  padding: 5px;
+  color: white;
+}
+
+.chapterWrapper {
+  width: 100%;
+}
+
+.ChapterLinkWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.timeTitleWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+/* View */
+
+.vHeaderImageContainer {
+  display: flex;
+}
+
+.vHeaderImage {
+  width: 100%;
+  align-items: center;
+}
+
+.viewHeader {
+  font-family: Oswald;
+  margin-bottom: 0px;
+}
+
+.courseStrText {
+}
+
+.vLearningObjectivesContainer {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vLearningObjectivesInnerContainer {
+  display: flex;
+}
+.vLearningObjectivesItems {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.vLearningObjectivesVideo {
+  display: flex;
+  align-items: center;
+}
+
+.vCoursenavigationWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vCoursenavigationHeader {
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.vViereck {
+  height: 5px;
+  width: 50px;
+  background-color: #bea602;
+  margin-bottom: 10px;
+}
