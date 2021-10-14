@@ -6,6 +6,7 @@ import View from "./components/view/View";
 import CourseStructure from "./components/editor/CourseStructure";
 import LearningObjectives from "./components/editor/LearningObjectives";
 import Coursenavigation from "./components/editor/Coursenavigation";
+import Contacts from "./components/editor/Contacts";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <CourseStructure />
             <LearningObjectives />
             <Coursenavigation />
+            <Contacts />
           </div>
           <div className="view">
             <View />

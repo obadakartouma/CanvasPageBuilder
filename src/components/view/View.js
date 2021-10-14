@@ -3,6 +3,7 @@ import HeaderImage from "./HeaderImage";
 import CourseStructure from "./CourseStructure";
 import LearningObjectives from "./LearningObjectives";
 import Coursenavigation from "./Coursenavigation";
+import Contacts from "./Contacts";
 
 export default function View() {
   return (
@@ -11,6 +12,7 @@ export default function View() {
       <CourseStructure />
       <LearningObjectives />
       <Coursenavigation />
+      <Contacts />
     </div>
   );
 }

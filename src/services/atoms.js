@@ -36,3 +36,16 @@ export const CourseNavigation = atom({
     ],
   },
 });
+
+export const Contact = atom({
+  key: "contact",
+  default: {
+    contacts: [
+      {
+        profilePicture: "",
+        name: "",
+        email: "",
+      },
+    ],
+  },
+});

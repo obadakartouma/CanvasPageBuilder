@@ -11,8 +11,8 @@ function LearningObjectives() {
       <div className="vLearningObjectivesInnerContainer">
         <div className="vLearningObjectivesItems">
           <ul>
-            {learningObjects.items.map((item) => (
-              <li>{item.item}</li>
+            {learningObjects.items.map((item, index) => (
+              <li key={index}>{item.item}</li>
             ))}
           </ul>
         </div>
