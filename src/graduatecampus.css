@@ -362,6 +362,218 @@
   -webkit-text-fill-color: transparent;
 }
 
+/*
+NEW CSS FOR GENERATOR
+*/
+
+/*HEADER IMAGE*/
+
+.headerImageContainer {
+  display: flex;
+}
+
+.headerImage {
+  width: 100%;
+  align-items: center;
+}
+
+/*courseStructure*/
+
+.courseStrWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewHeader {
+  margin-bottom: 9px !important;
+}
+
+.viereck {
+  height: 5px;
+  width: 50px;
+  background-color: #bea602;
+  margin-bottom: 10px;
+}
+
+/*Learning Objectives*/
+
+.learningObjectivesContainer {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.learningObjectivesInnerContainer {
+  display: flex;
+}
+
+.learningObjectivesItems {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #bea602;
+}
+
+.learningObjectivesVideo {
+  display: flex;
+  align-items: center;
+}
+
+.coursenavigationWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursenavigationHeader {
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.courseNavigationItemsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.cnWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  width: 200px;
+  position: relative;
+  margin: 10px;
+}
+
+.cnTitle {
+  display: flex;
+  flex-direction: column;
+  background-color: #bea602;
+  border: #bea602 solid 1px;
+
+  width: 200px;
+  border-radius: 5px 5px 0px 0px;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cnTitle_Duration {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(77, 77, 77);
+  align-self: flex-end;
+  margin: 5px;
+}
+
+.cnTitle_title {
+  font-size: large;
+  font-weight: bold;
+  line-break: auto;
+  color: white;
+  margin: 10px;
+}
+
+.cnBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(61, 61, 61);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  width: 200px;
+  border-radius: 0px 0px 5px 5px;
+  border: #bea602 solid 1px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 0px 0px;
+}
+
+.cnButton {
+  background-color: #bea602;
+  border-radius: 10px;
+  padding: 3px 34px;
+  color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: -10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.cnButton:hover {
+  background-color: #7a6a00;
+  transform: scale(1.05);
+}
+
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #3b3b3a;
+  padding: 10px;
+  color: white;
+}
+
+.courseItemsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactItemWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 240, 240, 0.644);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.contactItemsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactWrapper {
+  display: flex;
+  margin-right: 10px;
+}
+
+.contactleft {
+  display: flex;
+  height: 250px;
+}
+
+.contactRight {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 10px;
+}
+
+.contactEmail {
+  color: #bea602;
+}
+
 @keyframes dropingos {
   0% {
     opacity: 0;
