@@ -1,89 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="./graduatecampus.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="./graduatecampus.css" />
     <title>Export Html data</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="ganze">
-        <div class="headerImageContainer">
-            <img class="headerImage" src="./headerImage.jpg" />
+      <div class="headerImageContainer">
+        <img class="headerImage" src="./headerImage.jpg" />
+      </div>
+      <div class="courseStrWrapper">
+        <h3 class="viewHeader" style="margin-bottom: 9px">Course Structure</h3>
+        <div
+          classname="viereck"
+          style="
+            height: 5px;
+            width: 50px;
+            background-color: #bea602;
+            margin-bottom: 10px;
+          "
+        ></div>
+        <span class="courseStrText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          necessitatibus fuga quae ad similique eligendi amet, aliquid
+          reiciendis quo qui porro, dolor dignissimos saepe illo sed odit quas
+          adipisci fugit.
+        </span>
+      </div>
+      <div class="learningObjectivesContainer">
+        <h3 class="viewHeader">Learning Objectives</h3>
+        <div class="viereck"></div>
+        <div class="learningObjectivesInnerContainer">
+          <div class="learningObjectivesItems">
+            <ul>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+            </ul>
+          </div>
+          <div class="learningObjectivesVideo">
+            <video controls="controls" class="video">
+              <source
+                src="https://graduatecampus.beta.instructure.com/courses/688/files/39405/download"
+                type="video/mp4"
+              />
+            </video>
+          </div>
         </div>
-        <div class="courseStrWrapper">
-            <h3 class="viewHeader" style="margin-bottom: 9px;">Course Structure</h3>
-            <div classname="viereck" style="
-                height: 5px;
-                width: 50px;
-                background-color: #bea602;
-                margin-bottom: 10px;">
+      </div>
+      <div class="coursenavigationWrapper">
+        <div class="coursenavigationHeader">Course Navigation</div>
+        <div class="viereck"></div>
+        <div class="courseNavigationItemsWrapper">
+          <div class="cnWrapper">
+            <div class="cnTitle">
+              <div class="cnTitle_Duration">🕑20 min</div>
+              <div class="cnTitle_title">Insert Title of Learning Nugget</div>
             </div>
-            <span class="courseStrText">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit necessitatibus fuga quae ad similique eligendi amet, aliquid reiciendis quo qui porro, dolor dignissimos saepe illo sed odit quas adipisci fugit.
-            </span>
-        </div>
-        <div class="learningObjectivesContainer">
-            <h3 class="viewHeader">Learning Objectives</h3>
-            <div class="viereck"></div>
-            <div class="learningObjectivesInnerContainer">
-              <div class="learningObjectivesItems">
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
-              </div>
-              <div class="learningObjectivesVideo">
-                <video src="video.mp4" class="video"></video>
-              </div>
+
+            <div class="cnBody">
+              <ol type="1">
+                <li>Chapter Title</li>
+                <li>Chapter Title</li>
+                <li>Chapter Title</li>
+              </ol>
             </div>
-        </div>
-        <div class="coursenavigationWrapper">
-            <div class="coursenavigationHeader">Course Navigation</div>
-            <div class="viereck"></div>
-            <div class="courseNavigationItemsWrapper">
-                <div class="cnWrapper">
-                    <div class="cnTitle">
-                      <div class="cnTitle_Duration">🕑20 min</div>
-                      <div class="cnTitle_title">Insert Title of
-                        Learning Nugget</div>
-                    </div>
-            
-                    <div class="cnBody">
-                      <ol type="1">
-                        <li>Chapter Title</li>
-                        <li>Chapter Title</li>
-                        <li>Chapter Title</li>
-                      </ol>
-                    </div>
-                    <div
-                      class="cnButton"
-                      onClick="window.location.href = https://google.com;"
-                    >
-                      Start
-                    </div>
-                  </div>
-            </div>
-        </div>
-        <div class="contactsWrapper">
-            <div class="coursenavigationHeader">Contacts</div>
-            <div class="viereck"></div>
-            <div class="contactItemsWrapper">
-                <div class="contactWrapper">
-                    <div class="contactleft">
-                      <img src="profilepicture.jpg" class="headerImage" />
-                    </div>
-                    <div class="contactRight">
-                      <span class="contactName">{name}</span>
-                      <a class="contactEmail" href={`mailto:${email}`}>
-                        {email}
-                      </a>
-                    </div>
-                  </div>
+            <div
+              class="cnButton"
+              onClick="window.location.href = https://google.com;"
+            >
+              Start
             </div>
           </div>
+          <div class="cnWrapper">
+            <div class="cnTitle">
+              <div class="cnTitle_Duration">🕑20 min</div>
+              <div class="cnTitle_title">Insert Title of Learning Nugget</div>
+            </div>
+
+            <div class="cnBody">
+              <ol type="1">
+                <li>Chapter Title</li>
+                <li>Chapter Title</li>
+                <li>Chapter Title</li>
+              </ol>
+            </div>
+            <div
+              class="cnButton"
+              onClick="window.location.href = https://google.com;"
+            >
+              Start
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contactsWrapper">
+        <div class="coursenavigationHeader">Contacts</div>
+        <div class="viereck"></div>
+        <div class="contactItemsWrapper">
+          <div class="contactWrapper">
+            <div class="contactleft">
+              <img src="profilepicture.jpg" class="headerImage" />
+            </div>
+            <div class="contactRight">
+              <span class="contactName">{name}</span>
+              <a class="contactEmail" href="{`mailto:${email}`}"> {email} </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

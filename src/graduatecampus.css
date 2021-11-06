@@ -386,27 +386,33 @@ NEW CSS FOR GENERATOR
 
 .viewHeader {
   margin-bottom: 9px !important;
+  color: #3b3b3b;
+  font-size: 23px;
+  font-weight: 600;
 }
 
 .viereck {
   height: 5px;
   width: 50px;
-  background-color: #bea602;
+  background-color: #bda404;
   margin-bottom: 10px;
 }
 
 /*Learning Objectives*/
 
 .learningObjectivesContainer {
-  background-color: rgb(216, 216, 216);
+  background-color: #ededed;
   padding: 10px;
   margin: 30px 0px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .learningObjectivesInnerContainer {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .learningObjectivesItems {
@@ -414,11 +420,22 @@ NEW CSS FOR GENERATOR
   flex-direction: column;
   align-items: left;
   color: #bea602;
+  width: 402px;
 }
 
 .learningObjectivesVideo {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
 }
 
 .coursenavigationWrapper {
@@ -498,7 +515,11 @@ NEW CSS FOR GENERATOR
   width: 200px;
   border-radius: 0px 0px 5px 5px;
   border: #bea602 solid 1px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 0px 0px;
+  transition: all 0.3s ease;
+}
+
+.cnBody:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .cnButton {
