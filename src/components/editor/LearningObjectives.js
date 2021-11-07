@@ -7,7 +7,10 @@ function LearningObjectives() {
   const [learningObj, setLearningObj] = useRecoilState(learningObjectives);
 
   const onChange = ({ target: { value } }) => {
-    setLearningObj((prev) => ({ ...prev, youtubeUrl: value }));
+    setLearningObj((prev) => ({
+      ...prev,
+      youtubeUrl: value,
+    }));
   };
 
   const itemChanged = ({ target: { value } }, index) => {

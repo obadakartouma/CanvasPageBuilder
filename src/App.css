@@ -167,10 +167,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(216, 216, 216);
+  background-color: #ededed;
   padding: 10px;
   border-radius: 10px;
   margin: 5px;
+  box-shadow: rgba(158, 158, 158, 0.2) 0px 7px 29px 0px;
 }
 
 .DeletebuttonIcon {
@@ -263,26 +264,39 @@
 }
 
 .vLearningObjectivesContainer {
-  background-color: rgb(216, 216, 216);
+  background-color: #ededed;
   padding: 10px;
   margin: 30px 0px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(158, 158, 158, 0.2) 0px 7px 29px 0px;
 }
 
 .vLearningObjectivesInnerContainer {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .vLearningObjectivesItems {
   display: flex;
   flex-direction: column;
   align-items: left;
+  color: #bea602;
+  width: 24vw;
 }
 .vLearningObjectivesVideo {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  margin-bottom: 10px;
 }
-
+.video {
+  width: 100%;
+  height: 100%;
+}
 .vCoursenavigationWrapper {
   display: flex;
   flex-direction: column;

@@ -30,7 +30,6 @@ function Coursenavigation() {
     item[name] = value;
 
     items[index] = item;
-    console.log(items);
     setCourseNavigation((prev) => ({
       ...prev,
       items: items,
@@ -38,7 +37,6 @@ function Coursenavigation() {
   };
 
   const addNewChapter = (e, index) => {
-    console.log(index);
     let items = [...courseNavigationstate.items];
 
     let item = { ...items[index] };

@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { useRecoilValue } from "recoil";
 import { LearningObjectives as learningObjectives } from "../../services/atoms";
 
 function LearningObjectives() {
   const learningObjects = useRecoilValue(learningObjectives);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load(); // you can add logic to check if sources have been changed
+    }
+  }, [learningObjects.youtubeUrl]);
+
   return (
     <div className="vLearningObjectivesContainer">
       <h3 className="viewHeader">Learning Objectives</h3>
@@ -17,7 +25,13 @@ function LearningObjectives() {
           </ul>
         </div>
         <div className="vLearningObjectivesVideo">
-          <video src={learningObjects.youtubeUrl} />
+          <video controls="controls" class="video" ref={videoRef}>
+            {learningObjects.youtubeUrl ? (
+              <source src={learningObjects.youtubeUrl} type="video/mp4" />
+            ) : (
+              <source />
+            )}
+          </video>
         </div>
       </div>
     </div>
