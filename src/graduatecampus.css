@@ -408,7 +408,6 @@ NEW CSS FOR GENERATOR
   margin: 30px 0px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(158, 158, 158, 0.2) 0px 7px 29px 0px;
 }
 
 .learningObjectivesInnerContainer {
@@ -527,6 +526,10 @@ NEW CSS FOR GENERATOR
 
 .cnBody:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cnATag {
+  text-decoration: none;
 }
 
 .cnButton {
