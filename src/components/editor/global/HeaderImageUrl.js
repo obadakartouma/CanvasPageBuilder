@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRecoilState } from "recoil";
-import { ImageUrl as imageAtom } from "../../services/atoms";
+import { ImageUrl as imageAtom } from "../../../services/atoms";
 
 export default function HeaderImageUrl() {
   const [imageUrl, setImageUrl] = useRecoilState(imageAtom);

@@ -25,6 +25,30 @@
   font-weight: bold;
 }
 
+.h_layout_Wrapper span {
+  font-family: Poppins;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  margin-inline: 10px;
+}
+
+.h_layout_Wrapper span:hover {
+  transform: scale(1.2);
+  background-color: #bea602;
+  font-weight: bold;
+}
+
+.layout_selected {
+  background-color: #bea602 !important;
+  font-weight: bold;
+}
+
 .h_button {
   font-family: Poppins;
   border: none;

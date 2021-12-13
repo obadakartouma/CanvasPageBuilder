@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { CourseNavigation as courseNavigation } from "../../services/atoms";
+import { CourseNavigation as courseNavigation } from "../../../services/atoms";
 
 function Coursenavigation() {
   const [courseNavigationstate, setCourseNavigation] =
