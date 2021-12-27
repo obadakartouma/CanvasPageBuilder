@@ -548,3 +548,47 @@
 .display-none {
   display: none;
 }
+
+.layout2Beschreibung {
+  display: flex;
+  margin-top: 10px;
+  height: 350px;
+  background-color: #e5e5e5;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(158, 158, 158, 0.2) 0px 7px 29px 0px;
+}
+
+.layout2BeschreibungIcon {
+  width: 25vw;
+  max-width: 20vw;
+  align-items: center;
+}
+
+.layout2BeschreibungRecht {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.beschreibungBoxTitle {
+  font-family: Oswald;
+  color: #ac9502;
+}
+
+.beschreibungBoxText {
+  color: #151515;
+}
+
+.beschreibungBoxButton {
+  align-self: flex-end;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px 10px 0px 0px;
+  padding: 5px;
+  color: #f5f4f4;
+  background-color: #bea602;
+  cursor: pointer;
+}

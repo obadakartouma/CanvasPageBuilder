@@ -49,3 +49,13 @@ export const Contact = atom({
     ],
   },
 });
+
+export const BeschreibungBox = atom({
+  key: "beschreibungBox",
+  default: {
+    title: "",
+    text: "",
+    link: "",
+    image: "",
+  },
+});
