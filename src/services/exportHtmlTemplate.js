@@ -13,7 +13,7 @@ function makeCourseNavigationForHtml(courseNavigation) {
   courseNavigation.map((item) => {
     let newCN = `<div class="cnWrapper">
       <div class="cnTitle">
-      <div class="cnTitle_Duration">🕑${item.time} min</div>
+      <div class="cnTitle_Duration">🕑&nbsp;${item.time}min</div>
       <div class="cnTitle_title">${item.title}</div>
       </div>
 

@@ -3,10 +3,6 @@ import Layout1 from "./Layout1";
 import Layout2 from "./Layout2";
 
 export default function View({ layout }) {
-  useEffect(() => {
-    console.log("View", layout);
-  }, [layout]);
-
   const setLayout = (layout) => {
     switch (layout) {
       case 1:

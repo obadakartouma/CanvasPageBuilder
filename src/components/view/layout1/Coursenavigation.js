@@ -9,7 +9,7 @@ function Coursenavigation() {
     return (
       <div className="vCNWrapper">
         <div className="vCNTitle">
-          <div className="vCNTitle_Duration">🕑{time} min</div>
+          <div className="vCNTitle_Duration">🕑&nbsp;{time}min</div>
           <div className="vCNTitle_title">{title}</div>
         </div>
 

@@ -6,10 +6,6 @@ import { BeschreibungBox as beschreibungBox } from "../../../services/atoms";
 function BeschreibungBox() {
   const beschreibungBoxObjects = useRecoilValue(beschreibungBox);
 
-  const goToModule = () => {
-    console.log(beschreibungBoxObjects.link);
-  };
-
   return (
     <div className="layout2Beschreibung">
       <img
@@ -23,8 +19,15 @@ function BeschreibungBox() {
 
       <div className="layout2BeschreibungRecht">
         <h2 className="beschreibungBoxTitle">{beschreibungBoxObjects.title}</h2>
-        <div className="beschreibungBoxText">{beschreibungBoxObjects.text}</div>
-        <div className="beschreibungBoxButton" onClick={goToModule}>
+        <div className="beschreibungBoxText">
+          {beschreibungBoxObjects.text
+            ? beschreibungBoxObjects.text
+            : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veritatis possimus, adipisci dignissimos labore molestiae temporibus inventore non provident eius cumque sapiente, optio dolor ullam, id corporis at suscipit commodi."}{" "}
+        </div>
+        <div
+          className="beschreibungBoxButton"
+          onClick={() => (window.location.href = beschreibungBoxObjects.link)}
+        >
           Direkt zu den Modulen
         </div>
       </div>
