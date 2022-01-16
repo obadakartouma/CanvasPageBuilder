@@ -65,3 +65,20 @@ export const Metroplan = atom({
   default:
     "https://www.lyon-ortho-clinic.com/files/cto_layout/img/placeholder/bigteam.jpg",
 });
+
+export const Inhaltsuebersicht = atom({
+  key: "InhaltsUebersicht",
+  default: {
+    items: [
+      {
+        ImageUrl: "",
+        courses: [
+          {
+            text: "",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+});

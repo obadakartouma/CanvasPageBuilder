@@ -8,6 +8,7 @@ export default function MetroPlan() {
 
   return (
     <div className="MetroPlanContainer">
+      <div className="vMetroplanHeader">Metroplan</div>
       <img src={metroPlanImage} className="vMetroPlanImage" />
     </div>
   );
