@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilValue } from "recoil";
-import { CourseNavigation as courseNavigation } from "../../services/atoms";
+import { CourseNavigation as courseNavigation } from "../../../services/atoms";
 
 function Coursenavigation() {
   const courseNavigationObjects = useRecoilValue(courseNavigation);
@@ -9,7 +9,7 @@ function Coursenavigation() {
     return (
       <div className="vCNWrapper">
         <div className="vCNTitle">
-          <div className="vCNTitle_Duration">🕑{time} min</div>
+          <div className="vCNTitle_Duration">🕑&nbsp;{time}min</div>
           <div className="vCNTitle_title">{title}</div>
         </div>
 

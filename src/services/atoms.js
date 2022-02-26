@@ -49,3 +49,36 @@ export const Contact = atom({
     ],
   },
 });
+
+export const BeschreibungBox = atom({
+  key: "beschreibungBox",
+  default: {
+    title: "",
+    text: "",
+    link: "",
+    image: "",
+  },
+});
+
+export const Metroplan = atom({
+  key: "Metroplan",
+  default:
+    "https://www.lyon-ortho-clinic.com/files/cto_layout/img/placeholder/bigteam.jpg",
+});
+
+export const Inhaltsuebersicht = atom({
+  key: "InhaltsUebersicht",
+  default: {
+    items: [
+      {
+        ImageUrl: "",
+        courses: [
+          {
+            text: "",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+});

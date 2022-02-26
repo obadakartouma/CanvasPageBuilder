@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Layout1 from "./Layout1";
 import Layout2 from "./Layout2";
 
-export default function View({ layout }) {
+export default function Editor({ layout }) {
   const setLayout = (layout) => {
     switch (layout) {
       case 1:

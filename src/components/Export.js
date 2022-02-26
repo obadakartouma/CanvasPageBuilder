@@ -32,7 +32,6 @@ export default function Export() {
     );
     setHtml(exportedHtml);
     setShowModal(true);
-    console.log(exportedHtml);
   };
   return (
     <div>

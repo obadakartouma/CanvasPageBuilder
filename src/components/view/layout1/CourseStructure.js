@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilValue } from "recoil";
-import { CourseStructure as textAtom } from "../../services/atoms";
+import { CourseStructure as textAtom } from "../../../services/atoms";
 
 export default function CourseStructure() {
   const text = useRecoilValue(textAtom);

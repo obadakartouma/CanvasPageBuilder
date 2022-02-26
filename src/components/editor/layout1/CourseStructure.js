@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { CourseStructure as courseStructure } from "../../services/atoms";
+import { CourseStructure as courseStructure } from "../../../services/atoms";
 
 function CourseStructure() {
   const [courseStructureText, setCourseStructureText] =

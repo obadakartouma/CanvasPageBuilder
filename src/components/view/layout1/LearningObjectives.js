@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { useRecoilValue } from "recoil";
-import { LearningObjectives as learningObjectives } from "../../services/atoms";
+import { LearningObjectives as learningObjectives } from "../../../services/atoms";
 
 function LearningObjectives() {
   const learningObjects = useRecoilValue(learningObjectives);

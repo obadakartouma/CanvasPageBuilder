@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useRecoilState } from "recoil";
-import { LearningObjectives as learningObjectives } from "../../services/atoms";
+import { LearningObjectives as learningObjectives } from "../../../services/atoms";
 import { FiTrash } from "react-icons/fi";
 
 function LearningObjectives() {

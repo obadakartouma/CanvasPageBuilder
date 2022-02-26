@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useRecoilState } from "recoil";
-import { ImageUrl as imageAtom } from "../../services/atoms";
+import { Metroplan as metroplan } from "../../../services/atoms";
 
-export default function HeaderImageUrl() {
-  const [imageUrl, setImageUrl] = useRecoilState(imageAtom);
+export default function MetroPlan() {
+  const [metroplanUrl, setMetroplanUrl] = useRecoilState(metroplan);
   const [inputValue, setInputValue] = useState("");
 
   const onChange = ({ target: { value } }) => {
@@ -11,13 +11,13 @@ export default function HeaderImageUrl() {
   };
 
   const getPicture = (event) => {
-    setImageUrl(inputValue);
+    setMetroplanUrl(inputValue);
     event.preventDefault();
   };
 
   return (
     <div className="eHeaderContainer">
-      <span className="header">Header Image URL:</span>
+      <span className="header">Metroplan Image URL:</span>
       <div style={{ display: "flex" }}>
         <input
           type="text"

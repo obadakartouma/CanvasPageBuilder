@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { Contact as contact } from "../../services/atoms";
+import { Contact as contact } from "../../../services/atoms";
 
 function Contacts() {
   const [contacts, setContacts] = useRecoilState(contact);
