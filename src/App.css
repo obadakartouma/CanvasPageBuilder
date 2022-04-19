@@ -689,3 +689,118 @@ h3 {
 .vIuCourse:hover {
   background-color: #c0a404;
 }
+
+.vBadgesTitel {
+  font-family: Oswald;
+  font-size: 25px;
+  color: #bea602;
+  margin-bottom: 10px;
+}
+
+.vBadgesInhaltsText {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-right: 75px;
+}
+
+.vCanvasInfosContainer {
+  display: flex;
+  margin-top: 10px;
+  height: 150px;
+  background-color: #DECE74;
+  background-color: +50%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(158, 158, 158, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.vCanvasInfosTitel {
+  font-family: Oswald;
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.vCanvasInfosHinweis {
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.vCanvasInfosButton {
+  text-align: center;
+  width: 150px;
+  border-radius: 7px;
+  padding: 7px;
+  color: #bea602;
+  background-color: #f5f4f4;
+  cursor: pointer;
+  margin-left: 550px;
+}
+
+.hellmann {
+  width: 65%;
+  height: inherit;
+  margin-left: 40px;
+}
+
+.kontaktcontainer {
+  margin-top: 20px;
+  background-color: #676767;
+  color: white;
+  width: 550px;
+  height: 410px;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+
+.kontaktbody {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kontaktbild {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: white;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.kontakttitel {
+  font-family: Oswald;
+  font-size: 25px;
+  color: #bea602;
+  margin-bottom: 10px;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.kontaktname {
+  font-weight: bold;
+  font-size:x-large;
+}
+
+.saoswaldlight {
+  font-family: Oswald Light;
+}
+
+.kontaktemail {
+  margin-top: 25px;
+}
+
+
+.eBadgesContainer{
+  margin-top: 1300px;
+}
+

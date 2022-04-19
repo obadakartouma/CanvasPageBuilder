@@ -82,3 +82,21 @@ export const Inhaltsuebersicht = atom({
     ],
   },
 });
+
+export const Badges = atom({
+  key: "Badges",
+  default: {
+    title: "",
+    text: "",
+  },
+});
+
+export const CanvasInfos = atom({
+  key: "CanvasInfos",
+  default: {
+    title: "",
+    text: "",
+    buttontext: "",
+    link: "",
+  },
+});
